@@ -274,6 +274,8 @@ img {
 
 }
 
+/* modal window */
+
 .modal {
   position: absolute;
   top: 50%;
@@ -299,6 +301,73 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--primary-white-color);
 }
+/* Form */
+
+.contact-form {
+  display: block;
+  /* position: absolute;
+  left: 40px;
+  top: 75px; */
+  outline: 1px solid tomato;
+}
+
+.title-form {
+position: absolute;
+left: 40px;
+top: 40px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+
+color: var(--primary-text-color);
+}
+
+.form-field-label {
+position: absolute;
+left: 40px;
+top: 75px;
+margin-bottom: 4px;
+color: var(--accent-color);
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.01em;
+}
+
+.form-field {
+position: relative;
+}
+
+.form-field-input {
+  width: 100%;
+height: 40px;
+padding: 0 15px 0 42px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+outline: none;
+}
+
+.form-field-icon {
+  position: absolute;
+  top: 50%;
+left: 12px;
+fill: var(--primary-text-color);
+transform: translateY(-50%);
+}
+
+.form-field-input:focus {
+  border-color: var(--button-link-color);
+}
+
+.form-field-input:focus +.form-field-icon{
+fill: var(--button-link-color);
+}
+
+
 
 .section-two {
   padding-top: 94px;
