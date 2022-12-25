@@ -83,5 +83,8 @@
       <symbol id="icon-person" viewBox="0 0 32 32">
       <path d="M16 16c2.947 0 5.333-2.387 5.333-5.333s-2.387-5.333-5.333-5.333c-2.947 0-5.333 2.387-5.333 5.333s2.387 5.333 5.333 5.333zM16 18.667c-3.56 0-10.667 1.787-10.667 5.333v1.333c0 0.733 0.6 1.333 1.333 1.333h18.667c0.733 0 1.333-0.6 1.333-1.333v-1.333c0-3.547-7.107-5.333-10.667-5.333z"></path>
       </symbol>
+      <symbol id="icon-check-1" viewBox="0 0 42 32">
+      <path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64" d="M6.4 15.36l-0.32-0.32-3.2 2.88v0.32l11.2 10.88h0.32l24.32-23.040v-0.32l-3.2-2.88-21.12 20.16-8-7.68z"></path>
+</symbol>
  </defs>
 </svg>
